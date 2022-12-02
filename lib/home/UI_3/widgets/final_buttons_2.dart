@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_app/utility/colors.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class ButtonLast extends StatelessWidget {
@@ -23,6 +24,7 @@ class ButtonLast extends StatelessWidget {
             width: 200,
             height: 50,
             child: ElevatedButton(
+                style: ElevatedButton.styleFrom(),
                 onPressed: () {},
                 child: Text(
                   'Get Premium',

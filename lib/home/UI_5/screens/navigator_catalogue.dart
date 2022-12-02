@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_app/home/UI_5/widgets/catalog_home.dart';
+import 'package:flutter_application_app/utility/colors.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class ScreenProducts extends StatelessWidget {
@@ -26,7 +27,8 @@ class ScreenProducts extends StatelessWidget {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.blue,
+          
+          backgroundColor: primaryColor,
           bottom: upperTab,
         ),
         body:  

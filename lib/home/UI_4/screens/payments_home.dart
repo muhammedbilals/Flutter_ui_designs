@@ -4,6 +4,7 @@ import 'package:flutter_application_app/home/UI_4/widgets/payment_list_widget.da
 import 'package:flutter_application_app/home/UI_4/widgets/payment_overview.dart';
 import 'package:flutter_application_app/home/UI_4/widgets/payment_transactions.dart';
 import 'package:flutter_application_app/home/UI_4/widgets/payment_two_card.dart';
+import 'package:flutter_application_app/utility/colors.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class PaymentHome extends StatelessWidget {
@@ -13,6 +14,7 @@ class PaymentHome extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: primaryColor,
         title: Center(
             child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,

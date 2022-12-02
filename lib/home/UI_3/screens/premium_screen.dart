@@ -7,6 +7,7 @@ import 'package:flutter_application_app/home/UI_3/widgets/final_buttons_2.dart';
 import 'package:flutter_application_app/home/UI_3/widgets/premium_expanded.dart';
 import 'package:flutter_application_app/home/UI_3/widgets/premium_need_help.dart';
 import 'package:flutter_application_app/home/UI_3/widgets/premium_yt.dart';
+import 'package:flutter_application_app/utility/colors.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class PremiumScreen extends StatelessWidget {
@@ -16,6 +17,7 @@ class PremiumScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: primaryColor,
         title: Center(
           child: Padding(
             padding: const EdgeInsets.only(right: 50),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_app/home/UI_2/widgets/card_widget.dart';
+import 'package:flutter_application_app/utility/colors.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class ManageStore extends StatefulWidget {
@@ -15,6 +16,7 @@ class _ManageStoreState extends State<ManageStore> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: primaryColor,
         automaticallyImplyLeading: false,
         title: Center(
           child: Text(

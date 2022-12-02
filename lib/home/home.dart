@@ -5,6 +5,7 @@ import 'package:flutter_application_app/home/UI_3/screens/premium_screen.dart';
 import 'package:flutter_application_app/home/UI_4/screens/payments_home.dart';
 import 'package:flutter_application_app/home/UI_5/screens/navigator_catalogue.dart';
 import 'package:flutter_application_app/home/UI_6/screens/orders_home.dart';
+import 'package:flutter_application_app/utility/colors.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({super.key});
@@ -22,6 +23,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: primaryColor,
         title: const Text('UI Designs'),
       ),
       body: ListView.builder(
