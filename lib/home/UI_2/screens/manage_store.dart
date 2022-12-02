@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_app/home/UI_2/widgets/card_widget.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -28,7 +27,7 @@ class _ManageStoreState extends State<ManageStore> {
         children: [
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: [
+            children: const [
               CardWidget(
                   title: 'Marketing Designs',
                   passicon: Icons.volume_down_alt,
@@ -42,7 +41,7 @@ class _ManageStoreState extends State<ManageStore> {
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: [
+            children: const [
               CardWidget(
                 title: 'Discount Coupons',
                 passicon: Icons.paid,
@@ -57,7 +56,7 @@ class _ManageStoreState extends State<ManageStore> {
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: [
+            children: const [
               CardWidget(
                 title: 'Store QR Code',
                 passicon: Icons.qr_code,
@@ -73,7 +72,7 @@ class _ManageStoreState extends State<ManageStore> {
           Padding(
             padding: const EdgeInsets.all(9.0),
             child: Row(
-              children: [
+              children: const [
                 CardWidget(
                   title: ' Order From',
                   passicon: Icons.list,

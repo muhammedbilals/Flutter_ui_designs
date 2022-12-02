@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class ButtonLast extends StatelessWidget {
@@ -18,7 +16,7 @@ class ButtonLast extends StatelessWidget {
             child: Text(
               'Select Domain',
               style: GoogleFonts.poppins(
-                  fontSize: 20, color: Color.fromARGB(255, 19, 120, 203)),
+                  fontSize: 20, color: const Color.fromARGB(255, 19, 120, 203)),
             ),
           ),
           SizedBox(

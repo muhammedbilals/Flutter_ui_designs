@@ -1,5 +1,6 @@
-import 'package:flutter/cupertino.dart';
+// ignore: file_names
 import 'package:flutter/material.dart';
+import 'package:flutter_application_app/home/UI_1/widgets/bottom_text.dart';
 import 'package:flutter_application_app/home/UI_1/widgets/information_list.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -14,7 +15,13 @@ class UiHome extends StatelessWidget {
         style: GoogleFonts.poppins(),
         ),
       ),
-      body: InformationList(),
+      body: Column(
+        children: [
+          InformationList(),
+          const BottomText()
+        ],
+      ),
+
     );
   }
 }

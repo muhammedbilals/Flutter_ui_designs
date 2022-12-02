@@ -1,6 +1,3 @@
-
-
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_app/home/UI_1/widgets/switch_widget.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -43,6 +40,7 @@ class InformationList extends StatelessWidget {
           trailing: icontailing(index),
         );
       },
+      shrinkWrap: true,
     );
   }
 
@@ -64,5 +62,6 @@ class InformationList extends StatelessWidget {
       //   },
       // );
     }
+    return null;
   }
 }

@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_app/home/UI_3/widgets/card_widget.dart';
 import 'package:flutter_application_app/home/UI_3/widgets/features_list.dart';
@@ -30,14 +29,14 @@ class PremiumScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            PremiumCard(),
-            FeaturesText(),
+            const PremiumCard(),
+            const FeaturesText(),
             FeaturesList(),
-            PremiumYt(),
-            MyStatefulWidget(),
-            PremiumButtons(),
-            PremiumHelp(),
-            ButtonLast()
+            const PremiumYt(),
+            const MyStatefulWidget(),
+            const PremiumButtons(),
+            const PremiumHelp(),
+            const ButtonLast()
           ],
         ),
       ),

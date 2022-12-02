@@ -11,7 +11,7 @@ class AdditonalInformation extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        SizedBox(
+        const SizedBox(
           height: 10,
         ),
         Row(
@@ -27,7 +27,7 @@ class AdditonalInformation extends StatelessWidget {
             ),
           ],
         ),
-        SizedBox(
+        const SizedBox(
           height: 10,
         ),
         Row(
@@ -55,7 +55,7 @@ class AdditonalInformation extends StatelessWidget {
             ),
           ],
         ),
-        SizedBox(
+        const SizedBox(
           height: 10,
         ),
         Row(
@@ -83,7 +83,7 @@ class AdditonalInformation extends StatelessWidget {
             ),
           ],
         ),
-        SizedBox(
+        const SizedBox(
           height: 20,
         ),
         SizedBox(
@@ -93,7 +93,7 @@ class AdditonalInformation extends StatelessWidget {
             onPressed: () {},
             child: Text('Share Reciept',style: GoogleFonts.poppins(fontSize: 17),),
             style: OutlinedButton.styleFrom(
-              side: BorderSide(width: 2.0, color: Colors.blue),
+              side: const BorderSide(width: 2.0, color: Colors.blue),
             ),
           ),
         )

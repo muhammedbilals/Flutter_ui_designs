@@ -1,7 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class PaymentList extends StatelessWidget {
@@ -144,7 +141,7 @@ class PaymentList extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView.builder(
       shrinkWrap: true,
-      physics: NeverScrollableScrollPhysics(),
+      physics: const NeverScrollableScrollPhysics(),
       itemCount: title.length,
       itemBuilder: (context, index) {
         return ListTile(
@@ -163,7 +160,7 @@ class PaymentList extends StatelessWidget {
             children: [
               Text(price[index],
                   style: GoogleFonts.poppins(
-                      color: Color.fromARGB(255, 32, 94, 163))),
+                      color: const Color.fromARGB(255, 32, 94, 163))),
               Text(status[index], style: GoogleFonts.poppins()),
             ],
           ),

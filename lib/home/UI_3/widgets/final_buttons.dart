@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class PremiumButtons extends StatelessWidget {
@@ -10,8 +8,8 @@ class PremiumButtons extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Padding(
-          padding: const EdgeInsets.all(10.0),
+        const Padding(
+          padding: EdgeInsets.all(10.0),
           child: Divider(
             color: Color.fromARGB(255, 228, 217, 217),
             thickness: 3,

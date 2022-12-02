@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_app/home/UI_4/widgets/payment_card.dart';
 import 'package:flutter_application_app/home/UI_4/widgets/payment_list_widget.dart';
@@ -25,17 +24,17 @@ class PaymentHome extends StatelessWidget {
                 style: GoogleFonts.poppins(),
               ),
             ),
-            Icon(Icons.info_outline)
+            const Icon(Icons.info_outline)
           ],
         )),
       ),
       body: SingleChildScrollView(
         child: Column(
           children: [
-            PaymentCard(),
-            PaymentOverview(),
-            PaymentTwoCard(),
-            PaymentTransaction(),
+            const PaymentCard(),
+            const PaymentOverview(),
+            const PaymentTwoCard(),
+            const PaymentTransaction(),
             PaymentList(),
           ],
         ),

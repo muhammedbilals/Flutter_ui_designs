@@ -20,8 +20,8 @@ class OrderThreeSection extends StatelessWidget {
                 'May 31, 05:42 PM',
                 style: GoogleFonts.poppins(fontSize: 17),
               ),
-              Padding(
-                padding: const EdgeInsets.only(left: 200),
+              const Padding(
+                padding: EdgeInsets.only(left: 200),
                 child: Icon(
                   Icons.trip_origin,
                   color: Color.fromARGB(255, 27, 105, 174),
@@ -34,13 +34,13 @@ class OrderThreeSection extends StatelessWidget {
               )
             ],
           ),
-          Divider(
+          const Divider(
             thickness: 1,
             color: Color.fromARGB(255, 193, 187, 187),
           ),
-          SizedBox(
-          height: 10,
-        ),
+          const SizedBox(
+            height: 10,
+          ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
@@ -48,8 +48,8 @@ class OrderThreeSection extends StatelessWidget {
                 '1 ITEM',
                 style: GoogleFonts.poppins(fontSize: 17),
               ),
-              Padding(
-                padding: const EdgeInsets.only(left: 300),
+              const Padding(
+                padding: EdgeInsets.only(left: 300),
                 child: Icon(
                   Icons.receipt,
                   color: Color.fromARGB(255, 51, 135, 204),
@@ -58,7 +58,7 @@ class OrderThreeSection extends StatelessWidget {
               Text(
                 'RECIEPT',
                 style: GoogleFonts.poppins(
-                    fontSize: 17, color: Color.fromARGB(255, 27, 112, 182)),
+                    fontSize: 17, color: const Color.fromARGB(255, 27, 112, 182)),
               ),
             ],
           ),
@@ -91,18 +91,18 @@ class OrderThreeSection extends StatelessWidget {
                             height: 30,
                             padding: const EdgeInsets.all(5.0),
                             decoration: BoxDecoration(
-                              color: Color.fromARGB(255, 93, 160, 214),
+                              color: const Color.fromARGB(255, 93, 160, 214),
                               border: Border.all(),
                             ),
-                            child: Center(
+                            child: const Center(
                               child: Text(
                                 "1",
                                 style: TextStyle(fontSize: 20.0),
                               ),
                             ),
                           ),
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
+                          const Padding(
+                            padding: EdgeInsets.all(8.0),
                             child: Text('X'),
                           ),
                           Text(
@@ -121,14 +121,13 @@ class OrderThreeSection extends StatelessWidget {
               )
             ],
           ),
-          
-          Divider(
+          const Divider(
             thickness: 1,
             color: Color.fromARGB(255, 193, 187, 187),
           ),
-          SizedBox(
-          height: 10,
-        ),
+          const SizedBox(
+            height: 10,
+          ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
@@ -170,10 +169,10 @@ class OrderThreeSection extends StatelessWidget {
               )
             ],
           ),
-          SizedBox(
-          height: 10,
-        ),
-          Divider(
+          const SizedBox(
+            height: 10,
+          ),
+          const Divider(
             thickness: 1,
             color: Color.fromARGB(255, 193, 187, 187),
           ),

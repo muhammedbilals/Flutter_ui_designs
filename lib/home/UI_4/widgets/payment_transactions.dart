@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class PaymentTransaction extends StatelessWidget {
@@ -20,37 +18,37 @@ class PaymentTransaction extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Padding(
-                    padding: EdgeInsets.only(left: 20),
+                    padding: const EdgeInsets.only(left: 20),
                     child: ElevatedButton(
                       onPressed: () {},
+                      style: ElevatedButton.styleFrom(
+                          shape: const StadiumBorder(), backgroundColor: const Color.fromARGB(255, 217, 217, 217)),
                       child: Text(
                         'On Hold',
                         style: GoogleFonts.poppins(
-                            fontSize: 17, color: Colors.white38),
+                            fontSize: 17, color: const Color.fromARGB(227, 188, 186, 186)),
                       ),
-                      style: ElevatedButton.styleFrom(
-                          shape: StadiumBorder(), backgroundColor: Colors.grey),
                     ),
                   ),
                   ElevatedButton(
                     onPressed: () {},
+                    style: ElevatedButton.styleFrom(shape: const StadiumBorder()),
                     child: Text(
                       'Payouts(15)',
                       style: GoogleFonts.poppins(fontSize: 17),
                     ),
-                    style: ElevatedButton.styleFrom(shape: StadiumBorder()),
                   ),
                   Padding(
                     padding: const EdgeInsets.only(right: 20),
                     child: ElevatedButton(
                       onPressed: () {},
+                      style: ElevatedButton.styleFrom(
+                          shape: const StadiumBorder(), backgroundColor: const Color.fromARGB(255, 217, 217, 217)),
                       child: Text(
                         'Refunds',
                         style: GoogleFonts.poppins(
-                            fontSize: 17, color: Colors.white38),
+                            fontSize: 17, color: const Color.fromARGB(227, 188, 186, 186)),
                       ),
-                      style: ElevatedButton.styleFrom(
-                          shape: StadiumBorder(), backgroundColor: Colors.grey),
                     ),
                   )
                 ],

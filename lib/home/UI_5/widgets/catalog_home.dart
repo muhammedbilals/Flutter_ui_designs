@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_app/home/UI_1/widgets/switch_widget.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -45,7 +44,7 @@ class CatalogueHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Color.fromARGB(255, 241, 241, 241),
+      color: const Color.fromARGB(255, 241, 241, 241),
       child: ListView.builder(
         itemCount: 10,
         itemBuilder: ((context, index) {

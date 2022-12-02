@@ -1,7 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class PaymentOverview extends StatelessWidget {
@@ -30,7 +27,7 @@ class PaymentOverview extends StatelessWidget {
                         fontSize: 17, color: Colors.black.withOpacity(0.5)),
                   ),
                 ),
-                Icon(Icons.chevron_right)
+                const Icon(Icons.chevron_right)
               ],
             ),
           ),
@@ -49,13 +46,13 @@ class PaymentOverview extends StatelessWidget {
                       fontSize: 17, color: Colors.black.withOpacity(0.5)),
                 ),
               ),
-              Icon(Icons.chevron_right)
+              const Icon(Icons.chevron_right)
             ],
           ),
           Column(
-            children: [
+            children: const [
               Padding(
-                padding: const EdgeInsets.only(top: 10),
+                padding: EdgeInsets.only(top: 10),
                 child: Divider(
                   color: Color.fromARGB(255, 237, 233, 233),
                   thickness: 3,
@@ -80,7 +77,7 @@ class PaymentOverview extends StatelessWidget {
                           fontSize: 17, color: Colors.black.withOpacity(0.5)),
                     ),
                   ),
-                  Icon(Icons.keyboard_arrow_down_outlined),
+                  const Icon(Icons.keyboard_arrow_down_outlined),
                 ],
               )
             ],

@@ -1,9 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class CardWidget extends StatelessWidget {
-  CardWidget(
+  const CardWidget(
       {super.key,
       required this.title,
       required this.passicon,
